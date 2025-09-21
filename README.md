@@ -16,8 +16,8 @@
 ---
 
 > **作者**: hj01857655  
-> **版本**: v1.0  
-> **支持系统**: Windows、macOS  
+> **版本**: v2.0  
+> **支持系统**: Windows
 
 ## ✨ 功能特性
 
@@ -29,36 +29,22 @@
 - 🔄 **重置机器码** - 支持单独重置ExperimentId
 - 📊 **清理报告** - 详细显示清理进度和结果
 
-## 📥 快速下载
+## 📥 快速使用
 
-### 🎯 推荐使用（开箱即用）
+### 源码运行（推荐）
+```bash
+# 安装依赖
+pip install PyQt5 pywin32
 
-**Windows x64**: [📥 下载 WarpCleanupTool-v1.0-windows-x64.exe](https://github.com/hj01857655/warp-dev-cleanup-tool/releases/latest/download/WarpCleanupTool-v1.0-windows-x64.exe) `(~35MB)`
+# 运行GUI版本
+python warp_cleanup_windows.py
+```
 
-### 📝 源代码版本
-- **`warp_cleanup_tool.py`** - GUI图形界面版本（需要Python + PyQt5）
-- **`warp_cleanup_windows.py`** - Windows命令行版本
-- **`warp_cleanup_windows.ps1`** - PowerShell版本
-- **`warp_cleanup_macos.sh`** - macOS版本
+## ⚙️ 使用说明
 
-### 🛠️ 辅助工具
-- **`install_dependencies.bat`** - 自动安装依赖
-- **`run_gui.bat`** - 快速启动GUI版本
-- **`build.bat`** - 重新打包工具（多种选项）
-
-## 🚀 快速开始
-
-### Windows 用户（推荐）
-1. 直接运行：`dist/WarpCleanupTool-v1.0-windows-x64.exe`
-2. 建议右键选择"以管理员身份运行"
-
-### 源码运行（需要Python环境）
-1. 安装依赖：双击 `install_dependencies.bat`
-2. 运行GUI：双击 `run_gui.bat`
-3. 或命令行：`python warp_cleanup_tool.py`
-
-### macOS 用户
-1. 运行：`chmod +x warp_cleanup_macos.sh && ./warp_cleanup_macos.sh`
+1. **安装依赖**: `pip install PyQt5 pywin32`
+2. **运行程序**: `python warp_cleanup_windows.py`
+3. **建议以管理员身份运行**获得完整功能
 
 ## 🧹 清理内容
 
